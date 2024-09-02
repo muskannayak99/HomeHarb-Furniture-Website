@@ -1,0 +1,49 @@
+.catagories h5 {
+    color: tomato;
+}
+
+.catagories a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+.catagories .active{
+    color: tomato;
+}
+.catagories a:hover::after {
+    width: 35%;
+}
+
+.catagories a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.nav2 a:hover::after {
+    width: 50%;
+}
+.nav2 a:hover {
+    color: tomato;
+}
+.nav2 span{
+   font-family: 50px;
+}

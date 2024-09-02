@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.form-control {
+     
+    width: 470px !important;
+    margin-right: 20px;
+   
+}
+
+.btn7 {
+    width: 473px !important;
+    background-color: tomato !important;
+    height: 50px;
+    /* margin-right: 20px !important; */
+}
+
+.btn7:hover{
+    background-color: rgb(215, 64, 37) !important;
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+
+.time {
+    color: tomato !important;
+}
+
+.col-6 p {
+    width: 80% !important;
+
+}
+
+
+
+
+
+

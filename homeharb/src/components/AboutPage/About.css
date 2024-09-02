@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.us {
+    color: tomato !important;
+}
+
+.welcome p {
+    color: tomato !important;
+}
+
+.welcome button {
+    background-color: tomato !important;
+    height: 45px;
+    width: 140px;
+}
+
+.story a {
+    text-decoration: none;
+    color: white;
+}
+
+.story a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.story a:hover::after {
+    width: 40%;
+}
+
+.our {
+    color: tomato;
+}
+
+.imgg {
+    width: 600px;
+    height: 250px;
+}
+
+.img7 {
+    border-radius: 60px !important;
+    width: 100px;
+    height: 100px !important;
+    padding: 9px;
+    margin-left: 125px;
+}
+
+.card {
+    height: 23rem !important;
+    width: 29rem !important;
+}
+
+.contant {
+    color: tomato !important;
+}
+
+.card-4 {
+    background-color: tomato !important;
+    width: 23rem !important;
+    height: 20rem !important;
+}
+
+.card-img-top-1 {
+    height: 238px !important;
+}
+.MN{
+    /* overflow: hidden !important; */
+    /* background-color: #c30b17; */
+   background: linear-gradient(180deg, white 50%, tomato ) !important;
+    /* background: repeating-linear-gradient(39deg, black 10%, white 10%, #f95738 ); */
+}

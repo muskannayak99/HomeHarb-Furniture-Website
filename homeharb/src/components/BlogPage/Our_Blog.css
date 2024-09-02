@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.blog h5 {
+    color: tomato;
+}
+
+.blog p {
+    text-align: center;
+}
+
+.blog a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.blog a:hover::after {
+    width: 40%;
+}
+
+.blog a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-body p {
+    font-size: 10px;
+}
+
+.btn3 {
+    background-color: tomato;
+    width: 145px;
+    height: 45px;
+}
+
+.card-3 img {
+    height: 300px;
+}
+
+.tips {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.posted {
+    font-size: 11px;
+}

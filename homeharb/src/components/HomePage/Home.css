@@ -1,0 +1,78 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.headings>h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width:992px) {
+    .headings {
+        align-items: center;
+        text-align: center;
+    }
+
+    .headings>p {
+        padding: 0px !important;
+
+    }
+
+    .headings>button {
+        height: 57px;
+        width: 190px;
+    }
+
+    .living_room {
+        margin-left: 89px !important;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .headings>h1 {
+        font-size: 41px;
+    }
+
+    .living_room {
+        margin-left: 0px !important;
+    }
+}
+@media screen and (max-width:768) {
+    .living_room {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .headings>h1 {
+        font-size: 35px;
+    }
+
+    /* .living_room {
+        margin-left: 89px !important;
+    } */
+
+}
+
+.btn {
+    margin-top: 20px;
+    width: 250px;
+    height: 65px;
+    background-color: tomato !important;
+}
+.btn:hover{
+    background-color: rgb(215, 64, 37) !important;
+}
+
+.bg-image {
+    background-image: url('../Assests/Fundo\ de\ textura\ de\ mármore\ preto\ com\ padrão\ _\ Foto\ Premium.jpg');
+    height: 50%;
+}
+
+.Every {
+    color: tomato !important;
+}

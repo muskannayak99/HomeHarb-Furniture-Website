@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.card-1 {
+    height: 26rem !important;
+}
+
+.card-1 img {
+    height: 250px !important;
+}
+
+.card-img-top-2 {
+    height: 300px !important;
+}
+
+.living_img {
+    height: 400px !important;
+    width: 733px !important;
+}
+.btn6{
+    height: 50px !important;
+    width: 400px !important;
+    background-color: tomato !important;
+}
+.living_img2 {
+    height: 200px !important;
+    width: 355px !important;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.limited h1 {
+    color: tomato;
+}
+
+.bg-image2 {
+    background-image: url('../Assests/backimage.jpg');
+}
+
+.btn4 {
+
+    width: 130px;
+    height: 50px;
+    background: tomato;
+
+}
+
+.btn4:hover{
+ background-color: rgb(215, 64, 37);
+}
+
+.input::placeholder{
+    color: black !important;
+    
+}
+

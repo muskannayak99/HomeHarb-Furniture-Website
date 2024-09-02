@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.register {
+   
+    overflow: hidden;
+    width: 150vw !important;
+    height: 70vh !important;
+   
+    max-width: 500px !important;
+    padding: 16px;
+    background: rgba(72, 71, 71, 0.8);
+    /* background-color: rgb(16, 15, 15); */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+   
+   
+}
+
+.img0 {
+    background-image: url('./Assests/vecteezy_luxo-moderno-vivo-quarto-com-confortavel-sofa-gerado-de-ai_24714659.jpg');
+    background-size: cover;
+    background-position: 30px;
+    background-position-x: left;
+
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register_content {
+    z-index: 2 !important;
+    padding: 22px;
+    margin-left: 93px !important;
+
+}
+.register_content h1{
+    margin-left: 50px !important;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 104%;
+    padding: 15px !important;
+    margin: 8px 0;
+    border: 1px solid rgb(7, 7, 7);
+    box-sizing: border-box;
+   
+}
+
+.register_button {
+    font-size: 20px;
+    color: #333;
+    width: 10vh !important;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    border-radius: 9px;
+    
+    background-color: rgb(255, 255, 255);
+
+    color: rgb(247, 246, 246);
+   
+    border: none;
+    cursor: pointer;
+    width: 50% !important;
+}
+
+.register_button:hover {
+    background-color: tomato !important;
+    /* color: rgb(90, 81, 247); */
+    transition: 1s;
+}
+.login{
+    color: tomato !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .labels {
+    padding-bottom: 10px;
+    align-items: center;
+} */
+
+/* .input1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #333;
+    display: block;
+    width: 40vw;
+    height: 50px;
+    border: 1px solid #ede9e93a;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+    margin-top: 30px;
+} */
+
+/* .input2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #333;
+    display: block;
+    width: 40vw;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+    margin-top: 30px;
+} */

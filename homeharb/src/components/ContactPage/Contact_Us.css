@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.contact img {
+    height: 30px;
+    width: 30px;
+}
+
+.contact p {
+    color: tomato;
+}
+
+.bi {
+    color: tomato !important;
+    font-style: inherit;
+}
+
+.contact_Us img {
+    height: 355px;
+    width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    .contact {
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact>p,
+    .contact>h1,
+    .contact>i {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact_Us>img {
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact_Us>img {
+        height: 250px !important;
+    }
+}
+

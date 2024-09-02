@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.foot i {
+    color: tomato;
+    font-weight: bold;
+}
+
+.foot h6 {
+    color: tomato;
+    font-weight: bold;
+}
+
+.foot p {
+    font-size: small;
+    color: gray;
+}
+
+.list5 span {
+    list-style-type: none;
+
+}
+
+.list5 h6 {
+    font-weight: bold;
+}
+.foot {
+    font-size: small !important;
+    
+}
+
+@media screen and (max-width:992px) {
+    .foot {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .list5 {
+        display: flex;
+        flex-direction: column;
+    }
+}

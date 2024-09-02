@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+.about p {
+    color: tomato;
+    font-size: 14px;
+}
+.about h1 {
+    font-size: 49px;
+}
+.list h5 {
+    color: tomato;
+}
+.list1 {
+    flex: 1;
+}
+.Choose-Us a {
+    text-decoration: none;
+    color: white;
+}
+.Choose-Us a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+.Choose-Us a:hover::after {
+    width: 40%;
+}
+.list2 h2 {
+    color: tomato;
+}

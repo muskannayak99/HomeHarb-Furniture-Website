@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.testimonials a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.testimonials a:hover::after {
+    width: 40%;
+}
+
+.testimonials a {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-quote {
+
+    font-size: 80px;
+}
+
+.img6 {
+    border-radius: 60px !important;
+    width: 100px;
+    height: 100px !important;
+    padding: 9px;
+
+}
+
+.card-4 {
+    background-color: tomato !important;
+    width: 20rem !important;
+    height: 19rem !important;
+}
+
+.mankinew {
+    font-weight: bold;
+}
+
+.aries {
+    font-size: 11px;
+}
+
+.mm {
+    color: tomato;
+    font-size: 80px;
+}
+
+.David {
+    color: tomato;
+    font-weight: bold;
+}
+
+.Rakib {
+    font-weight: bold;
+}

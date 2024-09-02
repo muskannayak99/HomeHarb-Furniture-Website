@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+/* .bl {
+    height: 300px !important;
+    width: 450px !important;
+} */
+
+.btn5 {
+    width: 100px !important;
+    height: 45px !important;
+    background-color: tomato !important;
+}
+.btn5:hover{
+    background-color: rgb(215, 64, 37) !important;
+}
+.Blogcatagory-products{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 20px;
+ }

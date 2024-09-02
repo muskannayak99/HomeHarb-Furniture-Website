@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+
+.collections h5 {
+    color: tomato;
+}
+
+.collections p {
+    text-align: center;
+}
+
+.collections a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.collections a:hover::after {
+    width: 40%;
+}
+
+.collections a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-3 {
+    width: 23rem !important;
+    height: 22rem !important;
+
+}
+
+.card-body p {
+    font-size: 10px;
+}
+
+.btn2 {
+    background-color: tomato;
+    height: 20px;
+    width: 100px;
+    font-size: 10px;
+}
+
+.btn2:hover{
+    background-color: rgb(215, 64, 37) !important;
+}
+
+.btn3 {
+    background-color: tomato;
+    width: 145px;
+    height: 45px;
+}
+.btn3:hover{
+    background-color: rgb(215, 64, 37) !important;
+}
+

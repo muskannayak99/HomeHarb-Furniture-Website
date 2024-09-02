@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid tomato; */
+}
+.price{
+    color: tomato !important;
+}
+.productdisplay-img-left img {
+    height: 400px !important;
+    width: 733px !important;
+}
+.btn6{
+    height: 50px !important;
+    width: 400px !important;
+    background-color: tomato !important;
+    padding: 12px !important;
+}
+.btn6:hover{
+    background-color: rgb(249, 63, 30) !important;
+}
+.productdisplay-img img {
+    height: 240px !important;
+    width: 355px !important;
+}
