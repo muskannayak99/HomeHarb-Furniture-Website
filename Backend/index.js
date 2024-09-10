@@ -15,7 +15,7 @@ app.use(cors({
 app.use(cookieParser())
 app.use('/auth', UserRouter)
 
-mongoose.connect('mongodb://127.0.0.1:27017/authentication')
+ mongoose.connect('mongodb://127.0.0.1:27017/authentication')
 
 app.listen(process.env.PORT, () => {
     console.log("server is running")
